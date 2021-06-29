@@ -13,6 +13,11 @@
   </form>
 </section>
 
+<section x-data="{ counter: 0}">
+  <p x-text="counter"></p>
+  <button @click="counter++">Increment</button>
+</section>
+
 <section class="row">
   <article class="column">
     <h2>Resources</h2>
